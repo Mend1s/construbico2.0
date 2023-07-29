@@ -3,6 +3,8 @@
 @import url('buttons.css');
 @import url('hero.css');
 @import url('services.css');
+@import url('whoWeAre.css');
+@import url('projects.css');
 
 :root {
     --color-primary: #111111;
@@ -23,6 +25,10 @@
 
     --header-background-active: blue;
     /* Altere esta cor para a cor de fundo ativa desejada */
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body,

@@ -1,0 +1,45 @@
+#whoWeAre {
+    height: 370px;
+    padding: 0px 16px;
+}
+
+#whoWeAre h2 {
+    color: var(--c-1, #F7F7F7);
+    font-family: var(--font-Ubuntu);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#whoWeAre p {
+    color: var(--c-1, #F7F7F7);
+    font-family: var(--font-Mukta);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+#whoWeAre h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-Mukta);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+    max-width: 250px;
+    height: 46px;
+    flex-shrink: 0;
+}
+
+.whoWeAre-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}

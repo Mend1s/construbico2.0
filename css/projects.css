@@ -1,0 +1,30 @@
+#projects {
+    padding: 0px 16px;
+}
+
+#projects hr {
+    margin-top: 24px;
+    max-width: 500px;
+    border-radius: 20px;
+    background: var(--c-7, #707070);
+    opacity: 20%;
+}
+
+#projects h2 {
+    color: var(--c-1, #F7F7F7);
+    font-family: var(--font-Ubuntu);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#projects p {
+    color: var(--c-1, #F7F7F7);
+    font-family: var(--font-Mukta);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
