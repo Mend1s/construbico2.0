@@ -1,17 +1,21 @@
-.button_services {
-    background-color: var(--color-seconday);
+.button_solicite-orcamento {
     border: transparent;
-    border-radius: 16px;
-    padding: 15px 45px;
-    margin-top: 35px;
-    box-shadow: 0px 4px 25px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    min-width: 380px;
+    padding: 8px 24px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background: var(--gradiente, linear-gradient(180deg, #FB0 0%, #F2A60C 100%));
+    box-shadow: 0px 2px 6px 0px rgba(47, 47, 47, 0.15);
 }
 
-.button_services a {
-    font-size: 16px;
-    color: var(--white);
+.button_solicite-orcamento a {
     text-decoration: none;
-    font-family: var(--font-Mukta);
+    color: var(--p-5, #320);
+    font-family: var(--font-Ubuntu);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 26.71px;
 }
 
 .button_contate-nos {
@@ -36,7 +40,7 @@
     background: linear-gradient(180deg, #343434 0%, #232323 100%);
 }
 
-@media (max-width: 888px){
+@media (max-width: 888px) {
     .button_contate-nos {
         display: none;
     }
