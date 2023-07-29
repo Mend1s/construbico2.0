@@ -5,6 +5,7 @@
 @import url('services.css');
 @import url('whoWeAre.css');
 @import url('projects.css');
+@import url('feedback.css');
 
 :root {
     --color-primary: #111111;
