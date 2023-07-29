@@ -1,17 +1,22 @@
 #hero {
-    padding: 16px;
+    padding: 0 16px;
     height: 372px;
-    /* background-color: red; */
+    background-image: url(/assets/bg-text-2.png);
+    max-width: 1920px;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
 }
 
 #hero h1 {
-    margin-top: 40px;
+    padding-top: 40px;
     color: var(--white);
-    font-family: Ubuntu;
+    font-family: var(--font-Ubuntu);
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
+    max-width: 413px;
 }
 
 #hero p {
@@ -22,4 +27,18 @@
     font-weight: 400;
     line-height: 24px;
     margin-top: 12px;
+    max-width: 456px;
+}
+
+#hero hr {
+    margin-top: 24px;
+    max-width: 500px;
+    border-radius: 20px;
+    background: var(--c-7, #707070);
+    opacity: 20%;
+}
+
+.btn-container {
+    display: flex;
+    width: 100%;
 }

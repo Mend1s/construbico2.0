@@ -1,0 +1,72 @@
+#services {
+    height: 987px;
+    padding: 16px;
+    /* background-color: red; */
+}
+
+#services h2 {
+    color: var(--c-1, #F7F7F7);
+    font-family: var(--font-Ubuntu);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#services p {
+    color: var(--c-1, #F7F7F7);
+    font-family: var(--font-Mukta);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.list__services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.modal__servicos {
+    margin: 0 auto;
+    /* margin-bottom: 30px; */
+    
+    border-radius: 32px;
+    box-shadow: 0px 168.987px 135.189px rgba(0, 0, 0, 0.07), 0px 50.9446px 40.7557px rgba(0, 0, 0, 0.0456112), 0px 21.1598px 16.9278px rgba(0, 0, 0, 0.035), 0px 7.65308px 6.12246px rgba(0, 0, 0, 0.0243888);
+    background: var(--white);
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+.modal__servicos.construction {
+    background-image: url(/assets/construction.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.modal__servicos.reform {
+    background-image: url(/assets/reform.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.modal__servicos.manutencion {
+    background-image: url(/assets/manutencion.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.modal__title {
+    font-family: var(--font-Mukta);
+    font-size: 25px;
+    color: var(--color-roxo-claro);
+    margin-top: 11px;
+}

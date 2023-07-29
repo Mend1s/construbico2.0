@@ -1,8 +1,9 @@
 .button_solicite-orcamento {
     border: transparent;
     border-radius: 30px;
-    min-width: 380px;
     padding: 8px 24px;
+    width: 100%;
+    max-width: 500px;
     margin-top: 20px;
     border-radius: 30px;
     background: var(--gradiente, linear-gradient(180deg, #FB0 0%, #F2A60C 100%));
