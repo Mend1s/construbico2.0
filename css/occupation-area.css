@@ -1,0 +1,28 @@
+#occupation-area {
+    padding: 0 16px;
+}
+
+#occupation-area h2 {
+    color: var(--c-1, #F7F7F7);
+    font-family: var(--font-Ubuntu);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#occupation-area p {
+    color: var(--c-1, #F7F7F7);
+    font-family: var(--font-Mukta);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: -80px;
+}
+
+#occupation-area img {
+    position: relative;
+    top: 102px;
+}

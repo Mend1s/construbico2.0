@@ -1,0 +1,28 @@
+#footer {
+    background: var(--color-primary);
+    padding: 0 16px;
+    padding-top: 120px;
+    /* text-align: center; */
+    color: #F7F7F7;
+    font-family: var(--font-Mukta);
+}
+
+#footer ul {
+    max-width: 209px;
+    margin: 0 auto;
+}
+
+.list-v2 {
+    padding-top: 20px;
+}
+
+.copyright {
+    font-size: 10px;
+    color: var(--c-1, #F7F7F7);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 40px;
+}
