@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
   <link href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
   <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -29,34 +30,41 @@
       <ul id="menu" role="menu">
         <li><a href="#services">Nossos serviços</a></li>
         <li><a href="#whoWeAre">Quem somos</a></li>
-        <li><a href="/">Nossos Projetos</a></li>
-        <li><a href="/">Área de Atuação</a></li>
+        <li><a href="#projects">Nossos Projetos</a></li>
+        <li><a href="#occupation-area">Área de Atuação</a></li>
         <li class="hide-on-mobile"><a href="/" class="button_contate-nos">Contate-nos</a></li>
         <li class="hide-on-desktop"><a href="/">Fale Conosco</a></li>
-        <div class="social-media-menu">
-          <img src="/assets/wpp.svg" alt="">
-          <img src="/assets/linkedin.svg" alt="">
-          <img src="/assets/insta.svg" alt="">
+
+        <div class="social-media-menu medias-socias">
+          <a href="https://www.facebook.com/construbico"> <i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/construbico/"><i class="fa fa-instagram"></i></a>
+          <a href="#"> <i class="fa fa-whatsapp"></i> </a>
+          <a href="#"> <i class="fa fa-linkedin"></i> </a>
         </div>
       </ul>
     </nav>
   </header>
 
   <section id="hero">
-    <div class="hero-container">
-      <h1>Transformando sonhos em realidade, construindo sua casa perfeita.</h1>
-      <p>Conheça todos os nossos serviços e descubra como podemos ajudá-lo a transformar seus sonhos em realidade.</p>
+    <div class="wrapper">
+      <div class="hero-container">
+        <h1>Transformando sonhos em realidade, construindo sua casa perfeita.</h1>
+        <p>Conheça todos os nossos serviços e descubra como podemos ajudá-lo a transformar seus sonhos em realidade.</p>
+      </div>
+      <div class="btn-container">
+        <button class="button_solicite-orcamento"><a href="#">Solicite um orçamento</a></button>
+      </div>
     </div>
-    <div class="btn-container">
-      <button class="button_solicite-orcamento"><a href="#">Solicite um orçamento</a></button>
+    <div class="width-hr">
+      <hr>
     </div>
-    <hr>
   </section>
 
-  <section id="services">
+  <section id="services" class="wrapper">
     <h2>Nossos serviços</h2>
 
-    <p>Explore nossa variedade de serviços que são essenciais para tornar o seu lar completo. Oferecemos desde reparos e
+    <p class="services__description">Explore nossa variedade de serviços que são essenciais para tornar o seu lar
+      completo. Oferecemos desde reparos e
       manutenções até construções completas, atendendo a todas as necessidades residenciais que você possa ter.</p>
 
     <div class="services-container">
@@ -84,25 +92,32 @@
   </section>
 
   <section id="whoWeAre">
-    <h2>Quem somos</h2>
-    <p>Nós da Construbico temos mais de 20 anos de experiência em construção e nosso objetivo é realizar os sonhos dos
-      clientes com casas feitas com dedicação e profissionalismo. Trabalhamos de perto com você para garantir que
-      obtenha exatamente o que deseja. Seja construindo sua casa dos sonhos ou renovando sua casa atual, estamos aqui
-      para ajudar em cada passo do caminho.</p>
+    <div class="wrapper">
+      <h2>Quem somos</h2>
+      <div class="flex-text">
+        <p>Nós da Construbico temos mais de 20 anos de experiência em construção e nosso objetivo é realizar os sonhos
+          dos
+          clientes com casas feitas com dedicação e profissionalismo. Trabalhamos de perto com você para garantir que
+          obtenha exatamente o que deseja. Seja construindo sua casa dos sonhos ou renovando sua casa atual, estamos
+          aqui
+          para ajudar em cada passo do caminho.</p>
 
-    <div class="whoWeAre-container">
-      <img src="/assets/+20.png" alt="">
-      <h3>Mais de 20 anos de experiência no mercado da construção civil.</h3>
-    </div>
+        <div class="whoWeAre-container">
+          <img src="/assets/+20.png" alt="">
+          <h3>Mais de 20 anos de experiência no mercado da construção civil.</h3>
+        </div>
+      </div>
 
-    <div class="btn-container">
-      <button class="button_solicite-orcamento whoWeAre"><a href="#">Solicite um orçamento</a></button>
+      <div class="btn-container">
+        <button class="button_solicite-orcamento whoWeAre"><a href="#">Solicite um orçamento</a></button>
+      </div>
     </div>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="wrapper">
     <h2>Nossos projetos</h2>
-    <p>Explore a riqueza visual de nossos projetos através de nossa galeria que capturam nosso esforço e resultados.</p>
+    <p>Explore a riqueza visual dos projetos realizados por meio de uma seleção cuidadosa de fotografias que capturam
+      todo o esforço e resultado de nossos serviços realizados.</p>
 
     <div class="splide" role="group" aria-label="Splide Basic HTML Example">
       <div class="splide__track">
@@ -118,7 +133,7 @@
   </section>
 
   <section id="feedback">
-    <div class="feedback-container">
+    <div class="feedback-container wrapper">
       <img src="/assets/depoimento-00.png" alt="">
       <img src="/assets/depoimento-01.png" alt="">
       <img src="/assets/depoimento-02.png" alt="">
@@ -126,50 +141,52 @@
     <hr>
   </section>
 
-  <section id="occupation-area">
+  <section id="occupation-area" class="wrapper">
     <h2>Área de atuação</h2>
     <p>A nossa empresa oferece serviços de construção e reforma em uma ampla área geográfica. Nós temos capacidade de
       atendimento em toda região metropolitana de São Paulo, principalmente na Zona Oeste.</p>
-    <img src="/assets/mapa.png" alt="">
+    <img src="/assets/mapa.png" class="bg-mb" alt="">
+    <img src="/assets/mapa-desktop.png" class="bg-dsk" alt="">
+
   </section>
 
   <footer id="footer">
-
-    <ul>
-      <h3>Contato</h3>
-      <li>
-        <div>
-          <img src="" alt="">
+    <div class="container-footer wrapper">
+      <div class="row-footer">
+        <div class="footer-col">
+          <img src="/assets/logo_ConstruBico_BRANCO.png" alt="logo-construbico" width="82px" height="62px">
         </div>
-        <h2>Email</h2>
-        <p>email@gmail.com</p>
-      </li>
-      <li>
-        <div>
-          <img src="" alt="">
-        </div>
-        <h2>Instagram</h2>
-        <p>@construbico</p>
-      </li>
-      <li>
-        <div>
-          <img src="" alt="">
-        </div>
-        <h2>Telefone</h2>
-        <p>(11) 99606-2427</p>
-      </li>
-    </ul>
 
-    <ul class="list-v2">
-      <li>Informações</li>
-      <li>Serviços de construção</li>
-      <li>Serviços de manutenção</li>
-      <li>Serviços de reparo</li>
-      <li>Termos e condições</li>
-    </ul>
+        <div class="footer-col">
+          <h4>Seções</h4>
+          <ul>
+            <li><a href="#services">Nossos serviços</a></li>
+            <li><a href="#whoWeAre">Quem Somos</a></li>
+            <li><a href="#projects">Nossos Projetos</a></li>
+            <li><a href="#occupation-area">Área de Atuação</a></li>
+          </ul>
+        </div>
 
-    <p class="copyright">Copyright © 2023 Construbico - Todos os direitos reservados
-      Design por Jenifer Faria | Desenvolvido por André Mendes - ABAM</p>
+        <div class="footer-col">
+          <h4>Redes Sociais</h4>
+          <div class="medias-socias">
+            <a href="https://www.facebook.com/construbico"> <i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/construbico/"> <i class="fa fa-instagram"></i> </a>
+            <a href="#"> <i class="fa fa-whatsapp"></i> </a>
+            <!-- <a href="#"> <i class="fa fa-linkedin"></i> </a> -->
+            <a href="#"> <i class="fa fa-envelope"></i> </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <p>Copyright © 2023 Construbico - Todos os direitos reservados.<br><br>
+            Design por Jenifer Faria | Desenvolvido por André Mendes - ABAM</p>
+          <br>
+          <hr><br>
+          <p>Santana de Parnaíba, São Paulo.</p>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <script src="/js/script.js"></script>

@@ -17,4 +17,43 @@
     border-radius: 20px;
     background: var(--c-7, #707070);
     opacity: 20%;
+    display: block;
+}
+
+/* breakpoint - desktop */
+@media (min-width: 319px) {
+    
+    .feedback-container img {
+        width: 285px;
+    }
+}
+
+
+/* breakpoint - tablet */
+@media (min-width: 975px) {
+    #feedback {
+        padding: 60px 0px 100px 0px;
+        background-color: var(--color-secondary);
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%)
+    }
+
+    #feedback hr {
+        display: none;
+    }
+
+    .feedback-container {
+        flex-direction: row;
+    }
+
+    .feedback-container img {
+        width: 30%;
+    }
+}
+
+/* breakpoint - desktop */
+@media (min-width: 1440px) {
+    
+    .feedback-container img {
+        width: 387px;
+    }
 }

@@ -1,5 +1,5 @@
 #projects {
-    padding: 0px 16px;
+    padding: 40px 16px;
 }
 
 #projects hr {
@@ -8,6 +8,7 @@
     border-radius: 20px;
     background: var(--c-7, #707070);
     opacity: 20%;
+    display: block;
 }
 
 #projects h2 {
@@ -27,4 +28,48 @@
     font-weight: 400;
     line-height: 20px;
     margin-bottom: 20px;
+}
+
+
+@media (min-width: 319px) {
+    
+    #projects h2{
+        padding-top: 40px;
+    }
+}
+
+
+/* breakpoint - tablet */
+@media (min-width: 975px) {
+    #projects {
+        padding: 40px 16px 0;
+        height: 480px;
+    }
+
+    #projects h2 {
+        /* padding-top: 40px; */
+        color: var(--color-primary);
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    #projects p {
+        color: var(--color-primary);
+        font-size: 16px;
+        margin-top: 20px;
+        width: 864px;
+    }
+
+    #projects hr {
+        display: none;
+    }
+}
+
+/* breakpoint - desktop */
+
+@media (min-width: 1440px) {
+    #projects {
+        padding: 40px 0;
+        height: 100%
+    }
 }

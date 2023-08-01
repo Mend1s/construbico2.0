@@ -51,6 +51,24 @@
     }
 }
 
+@media (min-width: 975px) {
+    .button_solicite-orcamento {
+        width: 293.806px;
+        height: 62.613px;
+        padding: 17.806px 35.613px;
+
+        border-radius: 13.355px;
+        background: var(--gradiente, linear-gradient(180deg, #FB0 0%, #F2A60C 100%));
+
+        /* sombra */
+        box-shadow: 0px 2px 6px 0px rgba(47, 47, 47, 0.15);
+    }
+
+    .button_solicite-orcamento a {
+        font-size: 20px;
+    }
+}
+
 /* .button_contate-nos a:hover {
     transition: 1s;
 } */

@@ -36,9 +36,53 @@
     border-radius: 20px;
     background: var(--c-7, #707070);
     opacity: 20%;
+    display: block;
 }
 
 .btn-container {
     display: flex;
     width: 100%;
+}
+
+/* breakpoint - tablet */
+@media (min-width: 975px) {
+    #hero {
+        background-color: var(--color-secondary);
+    }
+
+    #hero hr {
+        display: none;
+    }
+
+    .width-hr {
+        max-width: 500px;
+    }
+}
+
+/* breakpoint - desktop */
+@media (min-width: 1440px) {
+    #hero {
+        padding: 0px;
+        height: 555px;
+        background-image: url(/assets/bg-desktop.png);
+    }
+
+    #hero h1 {
+        padding-top: 140px;
+    }
+
+    #hero p {
+        margin-top: 20px;
+    }
+
+    .button_solicite-orcamento {
+        margin-top: 24px;
+    }
+}
+
+@media (min-width: 319px) {
+    
+    #hero hr{
+        margin-top: 5px;
+    }
 }

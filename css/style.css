@@ -11,7 +11,7 @@
 
 :root {
     --color-primary: #111111;
-    --color-secondaty: #2E2E2E;
+    --color-secondary: #2E2E2E;
 
     --white: #FFFFFF;
     --white-gray: #D9D9D9;
@@ -40,8 +40,19 @@ ul {
     padding: 0px;
 }
 
+.wrapper {
+    max-width: 1405px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+    .wrapper {
+        max-width: 1170px;
+    }
+}
+
 @media (max-width: 975px) {
     body {
-        background-color: var(--color-secondaty);
+        background-color: var(--color-secondary);
     }
 }

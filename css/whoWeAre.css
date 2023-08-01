@@ -43,3 +43,63 @@
     flex-direction: column;
     margin-top: 15px;
 }
+
+/* breakpoint - tablet */
+@media (min-width: 975px) {
+    #whoWeAre {
+        background-color: var(--color-secondary);
+    }
+
+    #whoWeAre h2 {
+        padding-top: 40px;
+    }
+
+    #whoWeAre p {
+        margin-top: 20px;
+        width: 645px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .flex-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+    }
+}
+
+/* breakpoint - desktop */
+
+@media (min-width: 1440px) {
+    #whoWeAre {
+        background-color: var(--color-secondary);
+    }
+
+    #whoWeAre h2 {
+        padding-top: 40px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    #whoWeAre p {
+        margin-top: 20px;
+        width: 645px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .flex-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+    }
+}
+
+@media (min-width: 319px) {
+    
+    #whoWeAre h2{
+        padding-top: 24px;
+    }
+}

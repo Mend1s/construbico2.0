@@ -1,7 +1,6 @@
 #services {
     height: 987px;
     padding: 16px;
-    /* background-color: red; */
 }
 
 #services h2 {
@@ -35,9 +34,7 @@
 
 
 .modal__servicos {
-    margin: 0 auto;
-    /* margin-bottom: 30px; */
-    
+    margin: 0 auto;    
     border-radius: 32px;
     box-shadow: 0px 168.987px 135.189px rgba(0, 0, 0, 0.07), 0px 50.9446px 40.7557px rgba(0, 0, 0, 0.0456112), 0px 21.1598px 16.9278px rgba(0, 0, 0, 0.035), 0px 7.65308px 6.12246px rgba(0, 0, 0, 0.0243888);
     background: var(--white);
@@ -70,3 +67,71 @@
     color: var(--color-roxo-claro);
     margin-top: 11px;
 }
+
+/* breakpoint - tablet */
+@media (min-width: 975px) {
+    #services {
+        padding: 40px 16px 0;
+        height: 480px;
+    }
+
+    .list__services {
+        flex-direction: row;
+        gap: 48px;
+    }
+
+    #services h2 {
+        color: var(--color-primary);
+        font-weight: 600;
+    }
+
+    .services__description {
+        width: 790px;
+    }
+
+    #services p {
+        color: var(--color-primary);
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .modal__description {
+        width: 250px;
+    }
+}
+
+/* breakpoint - desktop */
+
+@media (min-width: 1440px) {
+    #services {
+        padding: 40px 0;
+        background-color: var(--white);
+        height: 100%
+    }
+
+    #services h2 {
+        font-weight: 600;
+    }
+
+    .services__description {
+        width: 860px;
+    }
+
+    .list__services {
+        gap: 80px;
+    }
+
+    .modal__servicos:hover{
+        background-color: var(--color-secondary);
+        box-shadow: 0px 2px 6px 0px rgba(47, 47, 47, 0.15);
+        transition: 0.5s;
+    }
+}
+
+@media (min-width: 319px) {
+    
+    #services h2{
+        margin-top: 5px;
+    }
+}
+

@@ -24,5 +24,95 @@
 
 #occupation-area img {
     position: relative;
-    top: 102px;
+    top: 220px;
+    width: 300px;
+}
+
+.bg-dsk{
+    display: none;
+    width: auto;
+    height: auto;
+}
+
+.bg-mb {
+    display: block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 200px;
+}
+
+@media (min-width: 321px) {
+    #occupation-area img {
+        top: 500px;
+    }
+}
+
+@media (min-width: 765px) {
+    .bg-mb {
+        display: none;
+    }
+
+
+    .bg-dsk {
+        display: block;
+        top: 305px;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+    }
+}
+
+@media (min-width: 940px) {
+    #occupation-area img {
+        top: 240px;
+    }
+}
+
+
+/* breakpoint - tablet */
+@media (min-width: 975px) {
+    #occupation-area {
+        padding: 40px 0 0 0;
+    }
+
+    #occupation-area h2 {
+        color: var(--color-primary);
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    #occupation-area p {
+        width: 864px;
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--color-primary);
+    }
+}
+
+
+@media (min-width: 1000px) {
+    #occupation-area img {
+        top: 270px;
+    }
+}
+
+@media (min-width: 1270px) {
+    #occupation-area img {
+        top: 270px;
+    }
+}
+
+@media (min-width: 1372px) {
+    #occupation-area img {
+        top: 275px;
+    }
+}
+
+/* breakpoint - desktop */
+@media (min-width: 1440px) {
+    #occupation-area img {
+        top: 315px;
+    }
 }
